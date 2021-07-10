@@ -1,0 +1,36 @@
+body{
+    background-color: red;
+}
+
+.image1{
+    background-image: url("../i1.jpg");
+    width:100%;
+    height:500px;
+    background-size: cover;
+}
+.image2{
+    background-image: url("../i2.jpg");
+    width:100%;
+    height:500px;
+    background-size: cover;
+}
+.image3{
+    background-image: url("../i3.jpg");
+    width:100%;
+    height:500px;
+    background-size: cover;
+}
+.cback{
+    background-color: aqua 
+    ;
+}
+.imagel1{
+    background-image: url("../i2.jpg");
+    width:100%;
+    height:350px;
+    /* margin-left: 50px; */
+    background-size: cover;
+}
+.ml-4{
+    /* margin-left: 100px; */
+}

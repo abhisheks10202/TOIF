@@ -1,5 +1,6 @@
 import React from 'react'
-import {Carousel} from "react-bootstrap"
+import {Carousel,Nav} from "react-bootstrap"
+import "./Card.css"
 const Card = () => {
     return (
   <>
@@ -47,8 +48,10 @@ TOI attempts to promote holistic development <br />and provide formative skill-d
 Our fellows encourage the kids to:<br />
 ● Focus on their interest domain.<br />
 ● Experience hands-on and seek to provide them with the right exposure.<br />
-● Create a sustainable global impact.</div>
+● Create a sustainable global impact.
+<Nav.Link className="blink">Join the movement...</Nav.Link></div>
    </div>
+
    <div className="row  mt-5 ml-3">
        <div className="col-7 text-center  text-light font-weight-bold">
       <h1 className="text-light font-weight-bold font-italic"> RAISE A DREAM</h1>
@@ -61,6 +64,7 @@ from our fellows. Help TOI raise a million dreams.<br />
 ● Refine the talent with your guidance and support.<br />
 ● Complete your social responsibility.<br />
 ❖ TOI will be pleased to associate with NGO’s, corporates, artists,<br />  institutions,academies, start-ups, professionals, businesses and others.
+<Nav.Link className="blink">Join the movement...</Nav.Link>
        </div>
        <div className="col-5 " >
        <Carousel>

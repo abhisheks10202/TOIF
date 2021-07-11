@@ -3,7 +3,7 @@ import React from 'react'
 import {BrowserRouter,Route} from "react-router-dom"
 import ContactUs from './component/ContactUs'
 
-import Home from './component/Home'
+import Home from './component/Home/Home'
 import LogIn from './component/LogIn'
 import Youth from "./component/Youth"
 

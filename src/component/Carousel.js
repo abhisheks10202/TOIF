@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from "react-bootstrap"
 import CarouselCaption from './CarouselCaption'
+import "./Home/Home.css"
 const Carousels = () => {
     return (
         <div>

@@ -51,6 +51,7 @@ Our fellows encourage the kids to:<br />
 ● Create a sustainable global impact.
 <Nav.Link className="blink">Join the movement...</Nav.Link></div>
    </div>
+<hr />
 
    <div className="row  mt-5 ml-3">
        <div className="col-lg-7 col-md-7 col-sm-12 text-center  text-light font-weight-bold">

@@ -4,7 +4,7 @@ import CarouselCaption from './CarouselCaption'
 import "./Home/Home.css"
 const Carousels = () => {
     return (
-        <div>
+        <div class>
             <Carousel>
                 <Carousel.Item interval={1000}>
                     <div
@@ -16,7 +16,7 @@ const Carousels = () => {
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
                     <div
-                        className="d-block w-100 h-500 image2"
+                        className="d-block w-100 h-500 image2 "
 
                         alt=""
                     />

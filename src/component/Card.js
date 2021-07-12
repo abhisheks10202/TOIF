@@ -5,7 +5,7 @@ const Card = () => {
     return (
   <>
    <div className="row  mt-5 ml-3">
-       <div className="col-5">
+       <div className="col-lg-5 col-md-5 col-sm-12">
        <Carousel>
             <Carousel.Item interval={1000}>
               <div
@@ -41,7 +41,7 @@ const Card = () => {
           </Carousel>
 
        </div>
-       <div className="col-7 text-center text-light font-weight-bold" ><h1 className="text-light font-weight-bold font-italic">  REACH TO TEACH</h1>
+       <div className="col-lg-7 col-md-7 col-sm-12 text-center text-light font-weight-bold" ><h1 className="text-light font-weight-bold font-italic">  REACH TO TEACH</h1>
 
 It’s high time that the suppressed talents get uplifted, education be skill-enriched and young<br /> crops get nurtured, aligned with their regular curriculum.<br />
 TOI attempts to promote holistic development <br />and provide formative skill-development modules and opportunities.<br />
@@ -53,7 +53,7 @@ Our fellows encourage the kids to:<br />
    </div>
 
    <div className="row  mt-5 ml-3">
-       <div className="col-7 text-center  text-light font-weight-bold">
+       <div className="col-lg-7 col-md-7 col-sm-12 text-center  text-light font-weight-bold">
       <h1 className="text-light font-weight-bold font-italic"> RAISE A DREAM</h1>
 
 Join hands and help TOI to Raise a Dream of impoverished talented children by <br /> providing them the access to your platform/network and with continuous assistance <br />
@@ -66,7 +66,7 @@ from our fellows. Help TOI raise a million dreams.<br />
 ❖ TOI will be pleased to associate with NGO’s, corporates, artists,<br />  institutions,academies, start-ups, professionals, businesses and others.
 <Nav.Link className="blink">Join the movement...</Nav.Link>
        </div>
-       <div className="col-5 " >
+       <div className="col-lg-5 col-md-5 col-sm-12 " >
        <Carousel>
             <Carousel.Item interval={1000}>
               <div

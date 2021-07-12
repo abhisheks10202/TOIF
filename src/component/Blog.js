@@ -6,7 +6,7 @@ const Blog = () => {
             <hr />
             <h1 className="text-center">LATEST BLOGS</h1>
             <div className="row">
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-sm-12  mt-4">
                 <Card className="ml-4" style={{ width: '22rem',height:"31rem", boxShadow: "10px 10px 10px gray" }}>
             <div className="imagel1 " variant="top" ></div>
             <Card.Body >
@@ -20,7 +20,7 @@ const Blog = () => {
             </Card.Body>
           </Card>
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4 col-md-6 col-sm-12 mt-4">
                < Card className="ml-4" style={{ width: '22rem',height:"31rem", boxShadow: "10px 10px 10px gray" }}>
             <div className="imagel1" variant="top" ></div>
             <Card.Body>
@@ -33,7 +33,7 @@ const Blog = () => {
           </Card>
 
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4  col-md-6 col-sm-12 mt-4">
 
                 <Card className="ml-4" style={{ width: '22rem',height:"31rem", boxShadow: "10px 10px 10px gray" }}>
             <div className="imagel1" variant="top" ></div>
